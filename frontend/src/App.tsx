@@ -1,12 +1,8 @@
-import { useState } from "react";
-import "./App.css";
-
+import Projects from "./pages/Projects";
+import PopUp from "./components/PopUp";
+import CreateProject from "./pages/CreateProject";
 function App() {
-  return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  );
+  return <CreateProject />;
 }
 
 export default App;
